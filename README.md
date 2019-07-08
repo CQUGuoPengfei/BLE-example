@@ -27,6 +27,10 @@ https://social.msdn.microsoft.com/Forums/en-US/58da3fdb-a0e1-4161-8af3-778b6839f
 
 6. In my case the device was not paired. I was able to find the code on SO which shows how to pair BLE devices.
 
+7. "32feet" nuget lib does not work with BLE. 
+
+8. I included everything from solution folder to github, please forgive me.
+
 Some help on code:
 
 In connect part:
