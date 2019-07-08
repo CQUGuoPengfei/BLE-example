@@ -8,7 +8,7 @@ Small example to work with BLE on win10 & .net framework 4.7.2.
 Might not work on previous versions, like:
 https://social.msdn.microsoft.com/Forums/en-US/58da3fdb-a0e1-4161-8af3-778b6839f4e1/bluetooth-bluetoothledevicefromidasync-does-not-complete-on-10015063?forum=wdk&prof=required
 
-2. CSR Harmony BLuetooth driver (and chip) did not work for me. I have to unistall it and let windows install it's own drivers.
+2. CSR Harmony BLuetooth driver did not work for me. I have to unistall it and let windows install it's own drivers.
 
 3. My setup is:
  a) basic  desktop computer, bluetooth dongle
@@ -27,9 +27,9 @@ https://social.msdn.microsoft.com/Forums/en-US/58da3fdb-a0e1-4161-8af3-778b6839f
 
 6. In my case the device was not paired. I was able to find the code on SO which shows how to pair BLE devices.
 
-7. "32feet" nuget lib does not work with BLE. 
+7. "32feet" nuget lib does not work with BLE. Actually I did not find any lib/package to work with BLE.
 
-8. I included everything from solution folder to github, please forgive me.
+8. I included everything from solution folder to github, please forgive me. 
 
 Some help on code:
 
