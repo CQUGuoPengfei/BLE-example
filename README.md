@@ -2,7 +2,7 @@
 .net framework BLE example code
 
 
-Small example to work with BLE on win10 & .net framework.
+Small example to work with BLE on win10 & .net framework 4.7.2.
 
 1. Tested on win10 1803 (17134.407)
 Might not work on previous versions, like:
