@@ -11,7 +11,9 @@ https://social.msdn.microsoft.com/Forums/en-US/58da3fdb-a0e1-4161-8af3-778b6839f
 2. CSR Harmony BLuetooth driver did not work for me. I have to unistall it and let windows install it's own drivers.
 
 3. My setup is:
+
  a) basic  desktop computer, bluetooth dongle
+ 
  b) ble dongle like this http://wiki.seeedstudio.com/Grove-BLE_v1/ 
  I used this terminal to communicate with dongle https://www.compuphase.com/software_termite.htm
  
