@@ -19,7 +19,7 @@ https://social.msdn.microsoft.com/Forums/en-US/58da3fdb-a0e1-4161-8af3-778b6839f
  
 4. In order to work from scratch, you need to include two references in your solution:
 
- «Windows от Universal Windows Platform»
+    «Windows от Universal Windows Platform»
     C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd
     
     «System.Runtime.WindowsRuntime»
