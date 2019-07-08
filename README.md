@@ -16,8 +16,10 @@ https://social.msdn.microsoft.com/Forums/en-US/58da3fdb-a0e1-4161-8af3-778b6839f
  I used this terminal to communicate with dongle https://www.compuphase.com/software_termite.htm
  
 4. In order to work from scratch, you need to include two references in your solution:
+
  «Windows от Universal Windows Platform»
     C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd
+    
     «System.Runtime.WindowsRuntime»
     C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETCore\v4.5\System.Runtime.WindowsRuntime.dll
 
@@ -29,19 +31,24 @@ Some help on code:
 
 In connect part:
 >if (args.Advertisement.LocalName.Contains("HMSoft"))
+
 Here you should provide the name of your dongle to C# program. In my case it is HMSoft
 
 
 > if (!service.Uuid.ToString().StartsWith("0000ffe0"))
+
 Each device has uuids, so in order to do the job you should first look into documentation or enumerate all uuid's from device and choose your.
 In my case it was "0000ffe0-0000-1000-8000-00805f9b34fb"
 
 >if (!characteristic.Uuid.ToString().StartsWith("0000ffe1"))
+
 Each device has several characteristics, so again look at docs or check all of them to see what is sending data to you.
 In my case it was "0000ffe1-0000-1000-8000-00805f9b34fb"
 
 In send part:
+
 > var result = await gattCharacteristic.WriteValueAsync(writer);
+
 You can not send more then 20 bytes at time. There will be an exception.
 
 
